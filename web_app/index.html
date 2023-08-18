@@ -1,0 +1,37 @@
+<DOCTYPE html>
+<html>
+	<head>
+	        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+	        <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	        <script src="app.js"></script>
+	        <link rel="stylesheet" type="text/css" href = "styles.css">
+	        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	</head>
+	<body>
+			<div id = "headers">
+	        	<div> Patient ID: <b><span id = "pid"> </span></b></div>
+	        	<div> CT ID: <b><span id = "ctid"> </span></b></div>
+	        	<div> GTV Name: <b><span id = "GTVname"> </span></b></div>
+	        	<div> GTV Segment:  <b><span id = "GTVsegment"> </span></b></div>
+	        </div>
+
+	        <figure><img id = "main_img"></figure>
+
+	        <div id = "buttons">
+	        	<button type="button" class = "screening_btns" id = "lung-tumor">1. Lung Tumor</button>
+	        	<button type="button" class = "screening_btns" id = "hilar-mediastinal-lymph-node">2. Hilar/Mediastinal Lymph Node</button>
+	        	<button type="button" class = "screening_btns" id = "contour-misalignment">3. Contour Misalignment</button>
+	        	<button type="button" class = "screening_btns" id = "other-lesion">4. Other Lesion</button>
+	        	<button type="button" class = "screening_btns" id = "uncertain">5. Uncertain</button>
+	        </div>
+
+	        <div id = "backbtn">
+	        	<button type="button" class = "back_btn" id = "back">6. Back</button>
+	        </div>
+
+	</body>
+</html>

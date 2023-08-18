@@ -1,0 +1,25 @@
+#headers{
+	text-align: center;
+}
+
+#buttons, #backbtn{
+	text-align: center;
+}
+
+#backbtn{
+	margin: 10px;
+}
+
+figure{
+   overflow:hidden; /*hide bounds of image */
+   margin:0;   /*reset margin of figure tag*/
+}
+
+#main_img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top:-5%;
+   	margin-bottom:-5%;
+}
