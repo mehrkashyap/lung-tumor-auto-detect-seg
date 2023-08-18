@@ -9,11 +9,11 @@ This repository contains the code for developing and evaluating a deep learning-
 
 The web application is an interactive platform to review ground truth lung tumor segmentations obtained from clinical radiation oncology contours. This was used to develop the primary dataset for training our lung tumor segmentation model.
 
-<img width="750" alt="image" src="https://github.com/mehrkashyap/lung-tumor-auto-detect-seg/assets/7898860/697753e4-0337-405d-9f26-8e6cc8f70c89">
+<p align="center"><img width="750" alt="image" src="https://github.com/mehrkashyap/lung-tumor-auto-detect-seg/assets/7898860/697753e4-0337-405d-9f26-8e6cc8f70c89"></p>
 
 ## Model Lung Tumor Detection and Segmentation Examples
 The following image shows examples of lung tumor detection and segmentation using our trained model compared with physician segmentations.
 
-<img width="750" alt="image" src="https://github.com/mehrkashyap/lung-tumor-auto-detect-seg/assets/7898860/9b3587f7-0b7a-4e8b-9a38-d8d99b083a4f">
+<p align="center"><img width="750" alt="image" src="https://github.com/mehrkashyap/lung-tumor-auto-detect-seg/assets/7898860/9b3587f7-0b7a-4e8b-9a38-d8d99b083a4f"></p>
 
 
